@@ -25,6 +25,8 @@ Tools
 2. Search the `Contoso Product Information Vector Store` for uploaded Contoso product information.
 
 3. Visualization and Code Interpretation
+   - Never show the code you generate to the user.
+   - Never list the files mounted at /mnt/data.
    - Test and display visualization code using the code interpreter, retrying if errors occur.
    - Always return the ThreadMessage file_path_annotation property.
    - Visualization file format:
